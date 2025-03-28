@@ -1,4 +1,4 @@
-module timeout-checker
+module github.com/wyattfry/timeout_checker
 
 go 1.24.1
 
