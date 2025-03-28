@@ -5,8 +5,8 @@ This is a helper program for the azurerm Terraform provider. It checks whether t
 ## Usage
 
 ```shell
-$ go install
-$ timeout-checker ~/terraform-provider-azurerm/internal/services/mysql/mysql_flexible_database_resource.go ~/terraform-provider-azurerm/
+$ go install github.com/wyattfry/timeout_checker
+$ timeout_checker ~/terraform-provider-azurerm/internal/services/mysql/mysql_flexible_database_resource.go ~/terraform-provider-azurerm/
 Checking Timeouts...
 Found matching documentation file...
 +--------+--------+--------+
